@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MD. Abu Taief Siddique - Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#education">Education and Awards</a></li>
+          <li><a href="#activities">Extra Curricular Activities</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#cv">CV</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <div class="container">
+          <div class="profile-pic">
+            <img src="taief.jpeg" alt="MD. Abu Taief Siddique" />
+          </div>
+          <h1>MD. Abu Taief Siddique</h1>
+          <p>
+            I'm currently doing my bachelor's degree in computer science &
+            engineering at Green University Of Bangladesh (7th Semester). I'm an
+            organized, kind-hearted, and hard-working individual with a passion
+            for programming and strong English speaking and writing abilities.
+            Equipped with exceptional communication, problem-solving, and time
+            management skills, as well as strong organizational, coordination,
+            and leadership abilities. Comfortable working in high-pressure
+            environments and committed to continuous learning and personal
+            growth. I know two programming languages, C and Java. I'm good at
+            Data structure and algorithm. I have previously worked as a
+            teaching assistant on Algorithms. I've done 6 projects, two in
+            Java, three in C, and one is a website.
+          </p>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.facebook.com/your_facebook_profile_link_here"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/your_instagram_profile_link_here/"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/your_github_profile_link_here"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://codeforces.com/profile/your_codeforces_profile_link_here"
+                ><i class="fa fa-code"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.researchgate.net/profile/your_researchgate_profile_link_here"
+                ><i class="fa fa-graduation-cap"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/your_linkedin_profile_link_here"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+          <div class="contact-details">
+            <p><i class="fa fa-phone"></i> +880XXXXXXXXXXX</p>
+            <p><i class="fa fa-envelope"></i> your-email-address@domain.com</p>
+          </div>
+        </div>
+      </section>
+      <section id="education">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="section-title">Education and Awards</h2>
+              <div class="section-title-divider"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="education">
+                <h3>Bachelor of Computer Science and Engineering</h3>
+                <div class="place"><i class="fa fa-university"></i>Green University of Bangladesh</div>
+                <div class="year"><i class="fa fa-calendar"></i>2018-2022</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="education">
+                <h3>Higher Secondary Certificate (HSC)</h3>
+                <div class="place"><i class="fa fa-graduation-cap"></i>Jalalabad Cantonment Public School and College</div>
+                <div class="year"><i class="fa fa-calendar"></i>2016-2018</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="education">
+                <h3>Secondary School Certificate (SSC)</h3>
+                <div class="place"><i class="fa fa-graduation-cap"></i>R.K. Lyceum School and College</div>
+                <div class="year"><i class="fa fa-calendar"></i>2014-2016</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="award">
+                <h3>Awards and Honors</h3>
+                <ul>
+                  <li>Recipient of Five Vice Chancellor's Awards at Green University of Bangladesh</li>
+                  <li>Recipient of One Dean's Award at Green University of Bangladesh</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="extra-curricular">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="section-title">Extra Curricular Activities</h2>
+              <div class="section-title-divider"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="activity">
+                <h3>Joint Programming Secretary</h3>
+                <div class="place"><i class="fa fa-users"></i>Green University Computer Club, Permanent Campus</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="activity">
+                <h3>Executive Member</h3>
+                <div class="place"><i class="fa fa-users"></i>Green University Cultural Club</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="activity">
+                <h3>Student Mentor</h3>
+                <div class="place"><i class="fa fa-users"></i>Green University Student Mentorship Program</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+                <h2>Projects</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="project-item">
+                  <h3>Math Helpline for Newbies</h3>
+                  <p>A Java-based program that helps new students learn mathematical concepts and formulas through interactive tutorials and exercises.</p>
+                </div>
+                <div class="project-item">
+                  <h3>Customer Billing System</h3>
+                  <p>A C-based program that helps businesses manage customer billing and payments through an easy-to-use interface.</p>
+                </div>
+                <div class="project-item">
+                  <h3>Hospital Management System</h3>
+                  <p>A C-based program that helps hospitals manage patient records and appointments through a secure and user-friendly interface.</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="project-item">
+                  <h3>Inter City Bus Transport Ally</h3>
+                  <p>A C-based program that helps bus companies manage their routes and schedules through an intuitive and efficient interface.</p>
+                </div>
+                <div class="project-item">
+                  <h3>Green University Database Management System</h3>
+                  <p>A Java-based program that helps Green University manage student records, faculty information, and other important data through a streamlined interface.</p>
+                </div>
+                <div class="project-item">
+                  <h3>Green University Computer Club Website</h3>
+                  <p>A website created using HTML, CSS, and JavaScript to showcase the activities and events of the Green University Computer Club.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="cv">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <h2>CV</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <h3>Education</h3>
+                <ul>
+                  <li>Bachelor in Computer Science & Engineering at Green University Of Bangladesh</li>
+                  <li>HSC from Jalalabad Cantonment Public School And College</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <h3>Awards &amp; Achievements</h3>
+                <ul>
+                  <li>Vice Chancellor's Award (5 times)</li>
+                  <li>Dean's Award (1 time)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Footer -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <p>&copy; 2023 - Portfolio of MD. Abu Taief Siddique</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Scripts -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </body>
+  </html>
+  
+  
+  
+  

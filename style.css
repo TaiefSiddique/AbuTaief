@@ -1,0 +1,134 @@
+/* Colors */
+:root {
+    --primary-color: royalblue;
+    --secondary-color: white;
+    --tertiary-color: black;
+  }
+  
+  /* General */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .navbar {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  header {
+    background-color: var(--secondary-color);
+    padding: 50px;
+  }
+  
+  header img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  header h1{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 13px;
+    color: var(--tertiary-color);
+  }
+  header h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 11px;
+    color: var(--tertiary-color);
+  }
+  
+  header p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    color: var(--tertiary-color);
+  }
+  
+  /* Main */
+  main {
+    padding: 50px;
+  }
+  
+  section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+  }
+  
+  section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: var(--tertiary-color);
+  }
+  
+  /* Projects */
+  .project {
+    border: 1px solid var(--primary-color);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+  }
+  
+  .project p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--tertiary-color);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  
